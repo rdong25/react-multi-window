@@ -8,7 +8,7 @@ export const useNewWindow = (children) => {
     let newWindow = window.open(
       "",
       "_blank",
-      "left=100,top=100,width=320,height=320,popup=yes"
+      "left=1000,top=100,width=320,height=320,popup=yes"
     );
 
     const div = document.createElement("div");
